@@ -1,0 +1,15 @@
+<!--pages/historyresult/historyresult.wxml-->
+<view class="historyresult">
+  <view class="ul">
+    <text class="title">
+      2018年10月《中国文化概论》真题卷-历年真题
+    </text>
+    <text class="result">共50道题     满分150分   用时50分钟  得分100分</text>
+  </view>
+  <view class="ul">
+    <text class="title">
+      2018年10月《中国文化概论》真题卷-历年真题
+    </text>
+    <text class="result">共50道题     满分150分   用时50分钟  得分100分</text>
+  </view>
+</view>

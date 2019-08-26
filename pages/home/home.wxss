@@ -1,0 +1,127 @@
+/* pages/home/home.wxss */
+
+.home .top-title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.home .top-title .area{
+  height: 39rpx;
+  width: 39rpx;
+  margin-left: 32rpx;
+  
+  
+}
+.home .top-title text{
+  font-size: 32rpx;
+  color: #000;
+  margin-left: 8rpx;
+}
+.home .top-title .showcourse{
+  font-size: 24rpx;
+  color: #000;
+  width: 215rpx;
+  height: 52rpx;
+  background: #F1F2F3;
+  text-align: center;
+  line-height: 52rpx;
+  border-radius:38rpx;
+  margin-left: 48rpx;
+}
+.home .top-title .showcourse image{
+  width: 22rpx;
+  height: 17rpx;
+  padding-left: 4rpx;
+}
+.home .swiper{
+  width: 654rpx;
+  height: 292rpx;
+}
+.home .content{
+  margin: 0 auto;
+  width: 694rpx;
+  height: 252rpx;
+  border-radius:10rpx;
+  box-shadow:0px 0px 6rpx rgba(0,0,0,0.16);
+}
+
+.home .content .content-top{
+  width: 100%;
+  height: 126rpx;
+  display: flex;
+}
+
+.home .content .content-top-left{
+  flex: 1;
+  box-shadow:0px 1rpx 2rpx rgba(0,0,0,0.16);
+  display: flex;
+  align-items: center;
+}
+.home .content .content-top-left text{
+  font-size: 32rpx;
+  color: #EDA949;
+  margin: 0 60rpx 0 34rpx;
+}
+.home .content .content-top-left .list{
+  width: 116rpx;
+  height: 108rpx;
+}
+.home .content .content-top-right{
+  flex: 1;
+   box-shadow:0px 1rpx 2rpx rgba(0,0,0,0.16);
+   display: flex;
+  align-items: center;
+}
+.home .content .content-top-right text{
+  font-size: 32rpx;
+  color: #ED85A8;
+  margin: 0 60rpx 0 34rpx;
+}
+.home .content .content-top-right .money{
+  width: 110rpx;
+  height: 102rpx;
+}
+.home .content .content-bottom{
+  /* box-shadow:0px 0px 6px rgba(0,0,0,0.16); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 126rpx;
+  
+}
+.home .content .content-bottom .content-bottom-left{
+  width: 58rpx;
+  padding: 0 14rpx 0 34rpx;
+  font-size: 28rpx;
+  color: #030303;
+}
+.home .content .content-bottom .content-bottom-middle{
+  font-size: 24rpx;
+  color: #707070;
+  flex: 1;
+  text-align: left;
+  padding-left: 30rpx;
+  height: 42rpx;
+  border-left: 1rpx solid #707070;
+}
+.home .content .content-bottom image{
+  width: 25rpx;
+  height: 22rpx;
+  padding-right: 18px;
+}
+.home .hotcourse{
+ 
+  padding: 50rpx 0 14rpx 28rpx;
+  
+  
+}
+.home .hotcourse .hotcourse-p{
+  font-weight:bold;
+  font-size: 32rpx;
+  color: #000;
+}
+.home .hotcourse .list-img .course{
+  width: 730rpx;
+  height: 262rpx;
+}

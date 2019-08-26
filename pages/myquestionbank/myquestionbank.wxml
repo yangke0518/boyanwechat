@@ -1,0 +1,44 @@
+<!--pages/myquestionbank/myquestionbank.wxml-->
+<view class="myquestionbank">
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question1.png"></image>
+    <text>章节练习</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question2.png"></image>
+    <text>模拟试卷</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question3.png"></image>
+    <text>历年真题</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question4.png"></image>
+    <text>资料下载</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li margin14">
+    <image class="left" src="/images/myquestionbank/question5.png"></image>
+    <text>错题本</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question6.png"></image>
+    <text>我的笔记</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question7.png"></image>
+    <text>我的收藏</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="myquestionbank-li">
+    <image class="left" src="/images/myquestionbank/question8.png"></image>
+    <text>做题记录</text>
+    <image class="right" src="/images/mycenter/mycenter11.png"></image>
+  </view>
+</view>
+

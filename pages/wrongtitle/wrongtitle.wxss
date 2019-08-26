@@ -1,0 +1,65 @@
+/* pages/wrongtitle/wrongtitle.wxss */
+page{
+  background: #fafafa;
+}
+.wrongtitle .top {
+  width: 200rpx;
+  margin: 112rpx auto 0;
+  text-align: center;
+}
+.wrongtitle .top .num{
+  font-size: 60rpx;
+  color: #000000;
+  margin: 0 24rpx 20rpx 0;
+}
+.wrongtitle .top .dot{
+  font-size: 24rpx;
+  color: #000000;
+}
+.wrongtitle .top .total{
+  font-size: 28rpx;
+  color: #1D2B40;
+  display: block;
+}
+.wrongtitle .ul .left1{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background: #EDF5FE;
+}
+.wrongtitle .ul .left2{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background: #FBF2EC;
+}
+.wrongtitle .ul .left3{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background: #FCF9E0;
+}
+.wrongtitle .ul view image{
+  width: 44rpx;
+  height: 44rpx;
+  margin: 0 auto ;
+  padding-top: 22rpx;
+}
+.wrongtitle .ul .li .learn{
+  font-size: 28rpx;
+  color: #1D2B40;
+}
+.wrongtitle .ul .li .topic{
+  font-size: 24rpx;
+  color: #A4A3A3;
+}
+.wrongtitle .ul button{
+  width: 146rpx;
+  height: 52rpx;
+  background: #146BB3;
+  border-radius:10rpx;
+  font-size: 24rpx;
+  color: #fff;
+  line-height: 50rpx;
+  text-align: center;
+}

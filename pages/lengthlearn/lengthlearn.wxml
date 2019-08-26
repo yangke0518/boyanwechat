@@ -1,0 +1,36 @@
+<!--pages/lengthlearn/lengthlearn.wxml-->
+<view class="lengthlearn">
+  <view class="lengthlearn-li">
+    <view class="title">
+      <image class="abroad" src="/images/add.png"></image>
+      <text class="title-text">第一章 绪论</text>
+    </view>
+    <view class="son">
+      <view class="son-title">
+        <image class="son-img" src="/images/reduce.png"></image>
+        <text class="table">第一节“文化”的界定</text>
+        <text class="question">共28道题</text>
+      </view>
+      <view class="son-content">
+        <text class="son-content-title">001“文化”的界定</text>
+        <text class="son-content-detail">-<text class="colorBule">0</text>/<text>28</text>-</text>
+      </view>
+      <view class="son-title">
+        <image class="son-img" src="/images/reduce.png"></image>
+        <text class="table">第二节 民族文化、国别文化与两个文化层面</text>
+        <text class="question">共13道题</text>
+      </view>
+      <view class="son-title">
+        <image class="son-img" src="/images/reduce.png"></image>
+        <text class="table">第三节 民族文化、国别文化与两个文化层面民族文化、国别文化与两个文化层面</text>
+        <text class="question">共13道题</text>
+      </view>
+    </view>
+  </view>
+  <view class="lengthlearn-li">
+    <view class="title">
+      <image class="abroad" src="/images/add.png"></image>
+      <text class="title-text">第二章 中国文化的地理背景</text>
+    </view>
+  </view>
+</view>

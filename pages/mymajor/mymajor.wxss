@@ -1,0 +1,76 @@
+/* pages/mymajor/mymajor.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.mymajor{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mymajor .mymajor-left{
+  width: 236rpx;
+  height: 100%;
+  background: #F1F2F3;
+  
+}
+.mymajor .mymajor-left text{
+  display: block;
+  width: 100%;
+  font-size: 28rpx;
+  color: #828282;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+
+}
+.mymajor .mymajor-left .active{
+  background: #fff;
+  color: #0C0C0C;
+
+
+}
+.mymajor .mymajor-right{
+  flex: 1;
+  padding: 22rpx 0 0 40rpx;
+}
+.mymajor .mymajor-right .title{
+  font-size: 30rpx;
+  color: #000;
+  display: block;
+}
+.mymajor .mymajor-right .univer{
+  font-size: 24rpx;
+  color: #707070;
+  margin: 12rpx 0 40rpx 0;
+  display: block;
+}
+.mymajor .mymajor-right .course{
+  width: 440rpx;
+  height: 62rpx;
+  background: #F1F2F3;
+  font-size: 28rpx;
+  color: #707070;
+  border-radius: 10rpx;
+  line-height: 62rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+.mymajor .mymajor-right .course .dot{
+  width: 14rpx;
+  height: 14rpx;
+  background: #146BB3;
+  border-radius: 50%;
+  display: block;
+  margin: 0 10rpx;
+}
+.mymajor .mymajor-right .content{
+  padding: 8rpx 0 32rpx 32rpx;
+}
+.mymajor .mymajor-right .content .content-detail{
+  display: block;
+  font-size: 24rpx;
+  color: #707070;
+  line-height: 34rpx;
+}

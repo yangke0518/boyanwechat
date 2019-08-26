@@ -1,0 +1,107 @@
+/* pages/learncost/learncost.wxss */
+page{
+  background: #fafafa;
+
+}
+.learncost .learncost-top{
+  width: 100%;
+  height: 194rpx;
+  background: linear-gradient(180deg,rgba(10,144,255,1) 0%,rgba(20,107,179,1) 100%);
+  padding: 64rpx 0 0 0;
+}
+.learncost .learncost-top text{
+  font-size: 24rpx;
+  color: #fff;
+  text-align: center;
+  display:block;
+
+}
+.learncost .learncost-top .number{
+  font-size: 44rpx;
+  color: #fff;
+  margin-top: 6rpx;
+}
+.learncost .learncost-ul{
+  width: 100%;
+  height: 114rpx;
+  display: flex;
+  padding: 20rpx 0;
+  background: #fff;
+  align-items: center;
+}
+.learncost .learncost-ul .learncost-li{
+  flex: 1;
+  border-right: 1rpx solid #f6f6f6;
+}
+.learncost .learncost-ul .learncost-li:last-child{
+  border: none;
+}
+.learncost .learncost-ul .learncost-li text{
+  display: block;
+  font-size: 24rpx;
+  color: #A4A3A3;
+  text-align: center;
+}
+.learncost .learncost-ul .learncost-li .number{
+  font-size: 24rpx;
+  color: #000;
+  margin-top: 16rpx;
+}
+.learncost .notice{
+  width: 100%;
+  height: 88rpx;
+  background: #fff;
+  margin: 18rpx 0;
+  padding:  28rpx 0 0 64rpx;
+}
+.learncost .notice text{
+  font-size: 24rpx;
+  color: #000;
+  font-weight: bold;
+}
+.learncost .cost-detail{
+  background: #fff;
+}
+.learncost .cost-detail-top{
+  border-bottom: 1rpx solid #f6f6f6;
+  height: 82rpx;
+  width: 100%;
+  padding: 0 26rpx 0 48rpx;
+  display: flex;
+  align-items: center;
+}
+.learncost .cost-detail-top text{
+  font-size: 24rpx;
+  color: #000;
+  font-weight: bold;
+  flex: 1;
+}
+.learncost .cost-detail-top .right{
+  height: 22rpx;
+  width: 25rpx;
+}
+.learncost .cost-detail-middle{
+  height: 140rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #f6f6f6;
+  padding: 0 26rpx 0 48rpx;
+}
+.learncost .cost-detail-middle .cost-detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #707070;
+  margin-top: 22rpx;
+  line-height: 34rpx;
+}
+.learncost .cost-detail-bottom{
+  height: 78rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 26rpx 0 48rpx;
+  color: #A4A3A3;
+  font-size: 24rpx;
+}

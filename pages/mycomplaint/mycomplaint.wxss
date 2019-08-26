@@ -1,0 +1,21 @@
+/* pages/mycomplaint/mycomplaint.wxss */
+.mycomplaint textarea{
+  background: #f6f6f6;
+  color: #fff;
+  font-size: 26rpx;
+  height: 242rpx;
+  width: 698rpx;
+  margin: 34px auto 0;
+  padding: 10rpx;
+  border-radius: 10rpx;
+
+}
+.mycomplaint button{
+  height: 72rpx;
+  width: 186rpx;
+  background: #146BB3;
+  font-size: 28rpx;
+  color: #fff;
+  margin: 46rpx 42rpx 0 0;
+  float: right;
+}

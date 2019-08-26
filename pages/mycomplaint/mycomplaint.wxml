@@ -1,0 +1,5 @@
+<!--pages/mycomplaint/mycomplaint.wxml-->
+<view class="mycomplaint">
+  <textarea placeholder="这是一个可以自动聚焦的textarea" auto-focus />
+  <button>提交</button>
+</view>

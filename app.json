@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/wrongtitle/wrongtitle",
+    "pages/topicrecord/topicrecord",
+    "pages/yeartopic/yeartopic",
+    "pages/mydownload/mydownload",
+    "pages/mynetwork/mynetwork",
+    "pages/lengthlearn/learndetail",
+    "pages/lengthlearn/lengthlearn",
+    "pages/myquestionbank/myquestionbank",
+    "pages/mynetcourse/mynetcourse",
+    "pages/mymessage/mymessage",
+    "pages/mytuition/mytuition",
+    "pages/learncost/learncost",
+    "pages/mycomplaint/mycomplaint",
+    "pages/historyresult/historyresult",  
+    "pages/myteacher/myteacher",
+    "pages/mydata/mydata",
+    "pages/mycenter/mycenter",
+    "pages/mymajor/mymajor",
+    "pages/home/home",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

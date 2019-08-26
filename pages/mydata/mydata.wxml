@@ -1,0 +1,8 @@
+<!--pages/mydata/mydata.wxml-->
+<view class="mydata">
+  <view class="list-view">
+    <text>姓名</text>
+    <input type="text" placeholder-class="phcolor" placeholder="Jane"></input>
+    <image src="/images/mycenter/mycenter11.png"></image>
+  </view>
+</view>

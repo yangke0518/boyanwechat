@@ -1,0 +1,47 @@
+<!--pages/learncost/learncost.wxml-->
+<!-- <text>pages/learncost/learncost.wxml</text> -->
+
+<view class="learncost">
+  <view class="learncost-top">
+    <text>欠缴费用（元）</text>
+    <text class="number">0</text>
+  </view>
+  <view class="learncost-ul">
+    <view class="learncost-li">
+      <text >应缴纳费用</text>
+      <text class="number">18600</text>
+    </view>
+    <view class="learncost-li">
+      <text>实缴费用</text>
+      <text class="number">17100</text>
+    </view>
+    <view class="learncost-li">
+      <text>欠缴费用</text>
+      <text class="number">0</text>
+    </view>
+  </view>
+  <view class="notice">
+    <text>自考考试本科-行政管理（在读）</text>
+  </view>
+  <view class="cost-detail">
+    <view class="cost-detail-top">
+      <text>姓名自考</text>
+      <image class="right" src="/images/mycenter/mycenter11.png"></image>
+    </view>
+    <view class="cost-detail-middle">
+      <view class="cost-detail">
+        <text>应缴费用</text>
+        <text class="black">¥18600</text>
+      </view>  
+      <view class="cost-detail">
+        <text>欠缴费用</text>
+        <text class="red">¥0</text>
+      </view>
+    </view>
+    <view class="cost-detail-bottom">
+      <text>共缴纳次数1次</text>
+      <!-- <text class="black">已缴清</text> -->
+      <text class="blue">待缴清</text>
+    </view>
+  </view>
+</view>

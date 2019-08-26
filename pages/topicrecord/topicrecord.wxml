@@ -1,0 +1,21 @@
+<!--pages/topicrecord/topicrecord.wxml-->
+<view class="topicrecord">
+  <view class="ul">
+    <view class="li">
+      <view class="title">001“文化”的界定-章节练习</view>
+      <text>共25道题</text>
+      <text>正确率60.00%</text>
+    </view>
+    <button class="answer">重新作答</button>
+    <button class="check">查看报告</button>
+  </view>
+  <view class="ul">
+    <view class="li">
+      <view class="title">2018年10月《中国文化概论》真题卷-历年真题</view>
+      <text>共25道题</text>
+      <text>正确率60.00%</text>
+    </view>
+    <button class="answer">重新作答</button>
+    <button class="check">查看报告</button>
+  </view>
+</view>

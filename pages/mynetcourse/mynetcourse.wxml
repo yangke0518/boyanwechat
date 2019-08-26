@@ -1,0 +1,20 @@
+<!--pages/mynetcourse/mynetcourse.wxml-->
+
+<view class="mynetcourse">
+  <view class="ul">
+    <text class="title">高升专课程</text>
+    <view class="ul-bottom">
+      <text class="course">共25节视频课程 已看3节</text>
+      <button class="download">资料下载</button>
+      <button class="learn">继续学习</button>
+    </view>
+  </view>
+  <view class="ul">
+    <text class="title">高升专课程</text>
+    <view class="ul-bottom">
+      <text class="course">共25节视频课程 已看3节</text>
+      <button class="download">资料下载</button>
+      <button class="learn">继续学习</button>
+    </view>
+  </view>
+</view>

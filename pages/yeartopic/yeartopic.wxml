@@ -1,0 +1,21 @@
+<!--pages/yeartopic/yeartopic.wxml-->
+<view class="yeartopic">
+  <view class="ul">
+    <view class="li">
+      <view class="title">2018年10月《中国文化概论》真题卷</view>
+      <text>难度：较难</text>
+      <text class="margin10">|</text>
+      <text>考试时间：150分钟</text>
+    </view>
+    <view class="button">开始做题</view>
+  </view>
+  <view class="ul">
+    <view class="li">
+      <view class="title">2018年10月《中国文化概论》真题卷</view>
+      <text>难度：较难</text>
+      <text class="margin10">|</text>
+      <text>考试时间：150分钟</text>
+    </view>
+    <view class="button">开始做题</view>
+  </view>
+</view>

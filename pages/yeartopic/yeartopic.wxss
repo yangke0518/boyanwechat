@@ -1,0 +1,32 @@
+/* pages/yeartopic/yeartopic.wxss */
+page{
+  background: #fafafa;
+}
+.yeartopic .ul{
+  width: 100%;
+  height: 150rpx;
+  background: #fff;
+  margin-bottom: 12rpx;
+  position: relative;
+  padding-left: 48rpx;
+  overflow: hidden;
+}
+.yeartopic .ul .li .title{
+  color: #1D2B40;
+  font-size: 28rpx;
+  margin: 24rpx 0;
+}
+.yeartopic .ul .li .margin10{
+  margin: 0 10rpx;
+}
+.yeartopic .ul .li text{
+  color: #C0C6CC;
+  font-size: 24rpx;
+}
+.yeartopic .ul .button{
+  font-size: 24rpx;
+  color:#146BB3; 
+  position: absolute;
+  bottom: 24rpx;
+  right: 48rpx;
+}

@@ -1,0 +1,114 @@
+/* pages/mycenter/mycenter.wxss */
+.mycenter {
+  background: #F6F6F6;
+}
+.mycenter .mycenter-top{
+  width: 100%;
+  height: 186rpx;
+  padding: 16rpx 0 36rpx 56rpx;
+  background: #fff;
+}
+.mycenter .mycenter-top .logo{
+  width: 126rpx;
+  height: 126rpx;
+  margin-right: 36rpx;
+  float: left;
+}
+.mycenter .mycenter-top .mycenter-top-rigth{
+  float: left;
+}
+.mycenter .mycenter-top .name{
+  font-size: 48rpx;
+  color: #1D2B40;
+  font-weight: bold;
+}
+.mycenter .mycenter-top .school{
+  height: 100%;
+}
+.mycenter .mycenter-top .school text{
+  float: left;
+  font-size: 24rpx;
+  color: #707070;
+  height: 34rpx;
+}
+.mycenter .mycenter-top .right{
+  width: 25rpx;
+  height: 22rpx;
+  margin: 8rpx 0 0 38rpx;
+  float: left;
+}
+
+.mycenter .mycenter-list {
+  width: 100%;
+  height: 170rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.mycenter .mycenter-list view{
+  flex: 1;
+  text-align: center;
+}
+.mycenter .mycenter-list view image {
+  width: 42rpx;
+  height: 42rpx;
+  margin: 0 auto;
+}
+.mycenter .mycenter-list .name{
+  font-size: 24rpx;
+  color: #000;
+}
+
+.mycenter .notice {
+   width: 100%;
+  height: 112rpx;
+  background: #fff;
+  margin: 14px 0 20rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mycenter .notice image{
+  width: 52rpx;
+  height: 52rpx;
+  margin: 0 52rpx 0 40rpx;
+}
+.mycenter .notice text{
+  font-size: 28rpx;
+  color: #7D90AB;
+}
+.mycenter .ul .li{
+  width: 100%;
+  height: 116rpx;
+  border: 1rpx solid #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+
+}
+.mycenter .ul .li .left-image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 0 24rpx 0 34rpx;
+}
+.mycenter .ul .li .reddot{
+  width: 36rpx;
+  height: 36rpx;
+  background: #F54040;
+  line-height: 36rpx;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 26rpx;
+  color: #fff;
+  margin-right: 12rpx;
+}
+.mycenter .ul .li text{
+  flex: 1;
+}
+.mycenter .ul .li .right{
+  width: 25rpx;
+  height: 22rpx;
+  margin-right: 20rpx;
+}

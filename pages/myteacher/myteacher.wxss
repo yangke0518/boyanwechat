@@ -1,0 +1,31 @@
+/* pages/myteacher/myteacher.wxss */
+
+
+.myteacher .list-view{
+  width:100%;
+  height: 98rpx;
+  border-bottom: 1px solid #f6f6f6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myteacher .list-view text{
+  font-size: 28rpx;
+  color: #000;
+  margin-left: 44rpx;
+}
+.myteacher .list-view input{
+  flex: 1;
+  text-align: right;
+  height: 100%;
+  color: #146BB3;
+}
+.myteacher .list-view image{
+   width: 29rpx;
+  height: 29rpx;
+  margin: 0 40rpx 0 0;
+}
+
+.myteacher .list-view .phcolor{
+  color: #C0C6CC;
+}

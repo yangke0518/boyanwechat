@@ -1,0 +1,31 @@
+/* pages/myquestionbank/myquestionbank.wxss */
+page{
+  background: #f6f6f6;
+}
+.myquestionbank .myquestionbank-li{
+  height: 108rpx;
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50rpx 0 40rpx;
+  background: #fff;
+}
+.myquestionbank .myquestionbank-li text{
+  flex: 1;
+  color: #1D2B40;
+  font-size: 28rpx;
+}
+.myquestionbank .myquestionbank-li .left{
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 30rpx;
+}
+.myquestionbank .myquestionbank-li .right{
+  height: 22rpx;
+  width: 25rpx;
+}
+.margin14{
+  margin: 14rpx 0;
+}

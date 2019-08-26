@@ -1,0 +1,19 @@
+<!--pages/mynetwork/mynetwork.wxml-->
+<view class="mynetwork">
+  <image class="banner" src="/images/mynetwork1.png"></image>
+  <text class="button">请点击播放</text>
+  <image class="stop" src="/images/mynetwork3.png"></image>
+  <view class="li">
+    <view class="mp4">
+      <text class="mp4-title">第一章 绪论</text>
+      <text class="mp4-time">00:00:00/00:05:09</text>
+    </view>
+    <image class="right" src="/images/mynetwork2.png"></image>
+  </view>
+  <view>
+  </view>
+  <view>
+  </view>
+  <view>
+  </view>
+</view>

@@ -1,0 +1,71 @@
+/* pages/lengthlearn/learndetail.wxss */
+.learndetail .learndetail-title .topic{
+  color: #1D2B40;
+  font-size: 44rpx;
+  font-weight: bold;
+  margin: 38rpx 26rpx 44rpx 36rpx;
+
+}
+.learndetail .learndetail-title text{
+  font-size: 24rpx;
+  color: #7D90AB;
+}
+.colorblur{
+  color:  #0069FF !important;
+}
+.learndetail .question{
+  padding: 0 42rpx;
+  margin-top: 44rpx;
+
+}
+.learndetail .question .name{ 
+  font-size: 28rpx;
+  color: #1D2B40;
+}
+.learndetail .question .usercheck{
+
+}
+.learndetail .question .usercheck .radio-group{
+  margin-top: 16rpx;
+  overflow: hidden;
+}
+.learndetail .question .usercheck radio{
+  font-size: 28rpx;
+  color: #7D90AB;
+  display: block;
+}
+.learndetail .question .usercheck .radio{
+  height: 65rpx;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:50rpx 0 0 0;
+  font-size: 24rpx;
+  color: #1D2B40;
+
+}
+.learndetail .question .usercheck .radio text{
+  font-size: 28rpx;
+  color: #7D90AB;
+}
+.learndetail .question .usercheck radio .wx-radio-input{
+  height: 65rpx;
+  width: 65rpx;
+  border-radius: 50%;
+  background: #F1F2F3;
+  border: none;
+  color:#1D2B40;
+} 
+
+
+.learndetail .question .usercheck radio .wx-radio-input.wx-radio-input-checked::before{
+  content:'A';
+  background: #7D90AB;
+  color: #fff;
+  height: 65rpx;
+  width: 65rpx;
+  border-radius: 50%;
+  line-height: 65rpx;
+  text-align: center;
+}

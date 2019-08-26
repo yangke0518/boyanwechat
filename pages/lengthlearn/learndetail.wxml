@@ -1,0 +1,18 @@
+<!--pages/lengthlearn/learndetail.wxml-->
+<view class="learndetail">
+  <view class="learndetail-title">
+    <text class="topic">单选题</text>
+    <text class="colorblur">1</text><text>/</text><text>18</text>
+  </view>
+  <view class="question">
+    <text class="name">“文质彬彬，然后君子。”这段文字出自（ ）</text>
+    <view class="usercheck">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>
+          <text>{{item.value}}</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,82 @@
+/* pages/mytuition/mytuition.wxss */
+page{
+  background: #Fafafa;
+
+}
+.mytuition .notice{
+  width: 100%;
+  height: 88rpx;
+  background: #fff;
+  margin: 18rpx 0;
+  padding:  28rpx 0 0 64rpx;
+}
+.mytuition  .cost-detail{
+  background: #fff;
+}
+.mytuition .cost-detail-top{
+  border-bottom: 1rpx solid #f6f6f6;
+  height: 82rpx;
+  width: 100%;
+  padding: 0 26rpx 0 48rpx;
+  display: flex;
+  align-items: center;
+}
+.mytuition .cost-detail-top text{
+  font-size: 24rpx;
+  color: #000;
+  font-weight: bold;
+  flex: 1;
+}
+.mytuition .cost-detail-top .right{
+  height: 22rpx;
+  width: 25rpx;
+}
+.mytuition .cost-detail-middle{
+  height: 140rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #f6f6f6;
+  padding: 0 26rpx 0 48rpx;
+}
+.mytuition .cost-detail-middle .cost-detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #707070;
+  margin-top: 22rpx;
+  line-height: 34rpx;
+}
+.mytuition .cost-detail-bottom{
+  height: 78rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 26rpx 0 48rpx;
+  color: #A4A3A3;
+  font-size: 24rpx;
+}
+.mytuition .cost-detail-bottom .flex{
+  flex: 1;
+}
+.mytuition .cost-detail-bottom .hui{
+  color: #1D2B40
+}
+.mytuition .cost-detail-bottom image{
+  height: 50rpx;
+  width: 50rpx;
+  text-align: right;
+  display: block;
+  margin-right: 34rpx;
+} 
+.mytuition .pay{
+  height: 70rpx;
+  width: 658rpx;
+  margin: 0 auto;
+  font-size: 24rpx;
+  color: #fff;
+  line-height: 70rpx;
+  text-align: center;
+  background: #146BB3;
+  margin-top: 34rpx;
+}

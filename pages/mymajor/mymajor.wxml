@@ -1,0 +1,18 @@
+<!--pages/mymajor/mymajor.wxml-->
+<view class="mymajor">
+  <view class="mymajor-left">
+    <text>专科</text>
+    <text class="active">本科</text>
+  </view>
+  <view class="mymajor-right">
+    <text class="title">自考-人力资源管理</text>
+    <text class="univer">报名学校：北京大学</text>
+    <view class="course"><text class="dot"></text>政治</view>
+    <view class="content">
+      <text class="content-detail">考试时间：2019年4月10号 上午9:00</text>
+      <text class="content-detail">考试地点：xx考点</text>
+    </view>
+    <view class="course"><text class="dot"></text>英语</view>
+    <view class="course"><text class="dot"></text>数学</view>
+  </view>
+</view>

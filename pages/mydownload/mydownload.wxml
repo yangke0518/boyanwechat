@@ -1,0 +1,55 @@
+<!--pages/mydownload/mydownload.wxml-->
+<view class="mydownload">
+  <view class="ul">
+    <view class="course">
+      社会学概论
+    </view>
+    <view class="operation">
+      <text class="operation-title">社会学概论</text>
+      <view class="detail">
+        <view class="detail-li">
+          <image src="/images/mydown1.png"></image>
+          <text>视频课程</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown2.png"></image>
+          <text>章节练习</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown3.png"></image>
+          <text>模拟考试</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown4.png"></image>
+          <text>下载资料</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="ul">
+    <view class="course">
+      中国行政使
+    </view>
+    <view class="operation">
+      <text class="operation-title">中国行政使</text>
+      <view class="detail">
+        <view class="detail-li">
+          <image src="/images/mydown5.png"></image>
+          <text class="c0c">视频课程</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown6.png"></image>
+          <text class="c0c">章节练习</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown7.png"></image>
+          <text class="c0c">模拟考试</text>
+        </view>
+        <view class="detail-li">
+          <image src="/images/mydown8.png"></image>
+          <text class="c0c">下载资料</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/mymessage/mymessage.wxml-->
+<view class="mymessage">
+  <view class="ul">
+    <text class="ul-title">班主任提示</text>
+    <text class="content">最近有什么难点问题，及时打电话联系。</text>
+  </view>
+  <view class="ul">
+    <text class="ul-title">班主任提示</text>
+    <text class="content">最近有什么难点问题，及时打电话联系。最近有什么难点问题，及时打电话联系。最近有什么难点问题，及时打电话联系。最近有什么难点问题，及时打电话联系。最近有什么难点问题，及时打电话联系。最近有什么难点问题，及时打电话联系。</text>
+  </view>
+</view>

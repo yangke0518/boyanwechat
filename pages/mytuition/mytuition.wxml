@@ -1,0 +1,28 @@
+<!--pages/mytuition/mytuition.wxml-->
+<view class="mytuition">
+  <view class="notice">
+    <text>自考考试本科-行政管理（在读）</text>
+  </view>
+  <view class="cost-detail">
+    <view class="cost-detail-top">
+      <text>姓名自考</text>
+      <image class="right" src="/images/mycenter/mycenter11.png"></image>
+    </view>
+    <view class="cost-detail-middle">
+      <view class="cost-detail">
+        <text>应缴费用</text>
+        <text class="black">¥18600</text>
+      </view>  
+      <view class="cost-detail">
+        <text>欠缴费用</text>
+        <text class="red">¥12121</text>
+      </view>
+    </view>
+    <view class="cost-detail-bottom">
+      <text class="flex">支付方式</text>
+      <image src="/images/wechat.png"></image>
+      <text class="hui">微信支付</text>
+    </view>
+  </view>
+  <button class="pay">在线支付</button>
+</view>

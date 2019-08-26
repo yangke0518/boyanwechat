@@ -1,0 +1,69 @@
+/* pages/lengthlearn/lengthlearn.wxss */
+page{
+  background: #fafafa;
+}
+.lengthlearn{
+
+}
+.lengthlearn .lengthlearn-li{
+  width: 100%;
+  min-height: 98rpx;
+  background: #fff;
+  padding: 28rpx;
+  margin: 0 0 14rpx 0;
+}
+.lengthlearn .lengthlearn-li .title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.lengthlearn .lengthlearn-li .abroad{
+  height: 36rpx;
+  width: 36rpx;
+  margin-right: 20rpx;
+}
+.lengthlearn .lengthlearn-li .title .title-text{
+  font-size: 28rpx;
+  color:#1D2B40;
+}
+.lengthlearn .lengthlearn-li .son{
+
+}
+.lengthlearn .lengthlearn-li .son .son-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lengthlearn .lengthlearn-li .son .son-title .son-img{
+  width: 29rpx;
+  height: 29rpx;
+  margin: 0 12rpx 0 44rpx;
+}
+.lengthlearn .lengthlearn-li .son .son-title .table{
+  font-size: 24rpx;
+  color:#7D90AB;
+  flex: 1;
+  margin: 34rpx 0 26rpx 0;
+}
+.lengthlearn .lengthlearn-li .son .son-title .question{
+  font-size: 24rpx;
+  color: #C0C6CC;
+  margin-left: 30rpx;
+}
+.lengthlearn .lengthlearn-li .son .son-content{
+  padding: 26rpx 0 0 88rpx;
+  height: 152rpx;
+
+}
+.lengthlearn .lengthlearn-li .son .son-content .son-content-title{
+  font-size: 24rpx;
+  color: #7D90AB;
+}
+.lengthlearn .lengthlearn-li .son .son-content .son-content-detail{
+  font-size: 24rpx;
+  color: #ADAFB2;
+  display: block;
+}
+.colorBule{
+  color: #0069FF !important;
+}

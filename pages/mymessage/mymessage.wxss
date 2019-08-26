@@ -1,0 +1,21 @@
+/* pages/mymessage/mymessage.wxss */
+page{
+  background: #fafafa;
+}
+.mymessage .ul{
+  margin-bottom: 12rpx;
+  width: 100%;
+  min-height: 196rpx;
+  background: #fff;
+  padding: 26rpx 0 26rpx 30rpx;
+}
+.mymessage .ul .ul-title{
+  font-size: 32rpx;
+  color: #1D2B40;
+  display: block;
+  margin-bottom: 30rpx;
+}
+.mymessage .ul .content{
+  font-size: 28rpx;
+  color: #C0C6CC;
+}

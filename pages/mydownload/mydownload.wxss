@@ -1,0 +1,53 @@
+/* pages/mydownload/mydownload.wxss */
+.mydownload .ul{
+  width: 100%;
+  height: 178rpx;
+  border: 2px solid #FAFAFA;
+  padding: 22rpx 28rpx 20rpx 26rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mydownload .ul .course{
+  width: 250rpx;
+  height: 142rpx;
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 140rpx;
+  background:rgba(20,107,179,.5);
+  box-shadow:0px 6px 12px rgba(0,0,0,0.16);
+  border-radius: 10rpx;
+}
+.mydownload .ul .operation{
+  flex: 1;
+  height: 100%;
+}
+.mydownload .ul .operation .operation-title{
+  color: #1D2B40;
+  font-size: 28rpx;
+  margin: 0 0 16rpx 26rpx;
+  display: block;
+}
+.mydownload .ul .operation .detail{
+  display: flex;
+  align-items: center;
+}
+.mydownload .ul .operation .detail .detail-li{
+  flex: 1;
+}
+.mydownload .ul .operation .detail .detail-li image{
+  width: 39rpx;
+  height: 39rpx;
+  margin: 0 auto 10rpx;
+}
+.mydownload .ul .operation .detail .detail-li text{
+  font-size: 20rpx;
+  color: #1D2B40;
+  display: block;
+  text-align: center;
+
+}
+.c0c{
+  color: #C0C6CC !important;
+}

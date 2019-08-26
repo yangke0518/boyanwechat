@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <view class="top-title">
+    <image class="area" src="/images/home-area.png"></image>
+    <text>湖北省</text>
+    <view class="showcourse">
+      行政管理本科<image src="/images/home-1.png"></image>
+    </view>
+  </view>
+  <view class="swiper">
+  </view>
+  <view class="content">
+    <view class="content-top">
+      <view class="content-top-left">
+        <text>我的题库</text>
+        <image class="list" src="/images/home-list.png"></image>
+      </view>
+      <view class="content-top-right">
+        <text>专业计划</text>
+        <image class="money" src="/images/home-money.png"></image>
+      </view>
+    </view>
+    <view class="content-bottom">
+      <text class="content-bottom-left">我的网课</text>
+      <text class="content-bottom-middle">一、马克思主义是时代的产物<text>已看20%</text></text>
+      <image  src="/images/home-2.png"></image>
+    </view> 
+  </view>
+  <view class="hotcourse">
+    <text class="hotcourse-p">热门课程</text>
+    <view class="list-img">
+      <image class="course" src="/images/home-curse.png"></image>
+    </view>
+  </view>
+</view>

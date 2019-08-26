@@ -1,0 +1,43 @@
+/* pages/topicrecord/topicrecord.wxss */
+page{
+  background: #fafafa;
+
+}
+.topicrecord .ul{
+  width: 100%;
+  height: 176rpx;
+  background: #fff;
+  margin-bottom: 12rpx;
+  padding: 28rpx 0 0 30rpx;
+  position: relative;
+}
+.topicrecord .ul .li .title{
+  color: #1D2B40;
+  font-size: 32rpx;
+  margin: 0 0 24rpx 0;
+}
+.topicrecord .ul .li text{
+  color: #C0C6CC;
+  font-size: 28rpx;
+}
+.topicrecord .ul button{
+  width: 152rpx;
+  height: 52rpx;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  line-height: 52rpx;
+  position: absolute;
+  bottom: 26rpx;
+}
+.topicrecord .ul .answer{
+  color: #1D2B40;
+  border: 1rpx solid #f6f6f6;
+  background: #fff;
+  right: 194rpx;
+
+}
+.topicrecord .ul .check{
+  background: #146BB3;
+  color: #fff;
+  right: 26rpx;
+}

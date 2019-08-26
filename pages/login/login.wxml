@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <image class='login-logo' src='/images/login-logo.png' ></image>
+  <text class="title">博研教育</text>
+  <view class="form">
+    <view class="border">
+      <image src="/images/login-people.png" class="left"></image>
+      <input placeholder="请输入手机号" type="number" maxlength="11" auto-focus />
+      <image src="/images/login-x.png" class="right"></image>
+    </view>
+    <view class="border">
+      <image src="/images/login-key.png" class="left"></image>
+      <input placeholder="请输入密码" auto-focus/>
+      <image src="/images/login-eye.png" class="right"></image>
+    </view>
+    <button bindtap="goLogin" class="login">登录</button>
+  </view>
+</view>
+
+
+<!-- "pages/login/login",
+"pages/home/home",  -->

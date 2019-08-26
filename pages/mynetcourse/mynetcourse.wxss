@@ -1,0 +1,56 @@
+/* pages/mynetcourse/mynetcourse.wxss */
+page{
+  background: #fafafa;
+}
+.mynetcourse .ul{
+  height: 176rpx;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 12rpx;
+  overflow: hidden;
+}
+.mynetcourse .ul .title{
+  font-size: 32rpx;
+  color: #1D2B40;
+  margin: 28rpx 0 0 32rpx;
+  display: block;
+}
+.mynetcourse .ul .ul-bottom{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 34rpx 0 0 32rpx;
+
+}
+.mynetcourse .ul .ul-bottom .title{ 
+  font-size: 32rpx;
+  color: #1D2B40;
+}
+.mynetcourse .ul .ul-bottom .course{
+  font-size: 28rpx;
+  color: #C0C6CC;
+  flex:1;
+}
+.mynetcourse .ul .ul-bottom .download{
+  /* width: 148rpx; */
+  height: 52rpx;
+  color: #1D2B40;
+  border: 1px solid #f6f6f6;
+  background: #fff;
+  line-height: 52rpx;
+  font-size: 24rpx;
+  text-align: center;
+  display: block;
+  margin-right: 20rpx;
+}
+.mynetcourse .ul .ul-bottom .learn{
+  /* width: 148rpx; */
+  height: 52rpx;
+  background: #146BB3;
+  color: #fff;
+  line-height: 52rpx;
+  font-size: 24rpx;
+  text-align: center;
+  display: block;
+  margin-right: 26rpx;
+}

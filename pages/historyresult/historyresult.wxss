@@ -1,0 +1,21 @@
+/* pages/historyresult/historyresult.wxss */
+page{
+  height: 100%;
+}
+.historyresult{
+  background: #FAFAFA;
+  height: 100%;
+}
+.historyresult .ul{
+  width: 100%;
+  height: 176rpx;
+  margin-bottom: 12rpx;
+  background: #fff;
+  padding: 0 10rpx 0 30rpx;
+}
+.historyresult .ul .result{
+  font-size: 26rpx;
+  color: #C0C6CC;
+  margin-top: 30rpx;
+  display: block;
+}
