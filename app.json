@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/answerport/answerport",
     "pages/sectionlearn/sectionlearn",
     "pages/wrongtitle/wrongtitle",
@@ -20,8 +21,7 @@
     "pages/mydata/mydata",
     "pages/mycenter/mycenter",
     "pages/mymajor/mymajor",
-    "pages/home/home",
-    "pages/login/login"
+    "pages/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",
