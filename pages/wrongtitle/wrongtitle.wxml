@@ -1,4 +1,3 @@
-<!--pages/wrongtitle/wrongtitle.wxml-->
 <view class="wrongtitle">
   <view class="top">
     <text class="num">50</text><text class="dot">道</text>
@@ -19,7 +18,7 @@
       <image src="/images/wrongtitle2.png"></image>
     </view>
     <view class="li">
-      <text class="learn">章节练习</text>
+      <text class="learn">模拟试卷</text>
       <text class="topic">共4道题</text>
     </view>
     <button>开始做题</button>
@@ -29,9 +28,15 @@
       <image src="/images/wrongtitle3.png"></image>
     </view>
     <view class="li">
-      <text class="learn">章节练习</text>
+      <text class="learn">历年真题</text>
       <text class="topic">共4道题</text>
     </view>
     <button>开始做题</button>
   </view>
 </view>
+
+<!-- <import src="/component/hintstart/hintstart" />
+<template is="hintstart"/> -->
+
+<!-- <import src="/component/dotfooter/dotfooter" />
+<template is="dotfooter"/> -->

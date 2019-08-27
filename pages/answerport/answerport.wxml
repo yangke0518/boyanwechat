@@ -1,0 +1,76 @@
+<!--pages/answerport/answerport.wxml-->
+<view class="answerport">
+  <view class="header">
+    <text class="dat">正确率（%）</text>
+    <text class="numdot">60.00%</text>
+  </view>
+  <view class="top-ul clearfix">
+    <view class="top-li">
+      <image src="/images/answerport1.png"></image>
+      <text class="total">共计</text>
+      <text class="que">25道</text>
+    </view>
+    <view class="top-li">
+      <image src="/images/answerport2.png"></image>
+      <text class="total">答对</text>
+      <text class="que">21道</text>
+    </view>
+    <view class="top-li">
+      <image src="/images/answerport3.png"></image>
+      <text class="total">答错</text>
+      <text class="que">4道</text>
+    </view>
+    <view class="top-li">
+      <image src="/images/answerport4.png"></image>
+      <text class="total">未作答</text>
+      <text class="que">25道</text>
+    </view>
+  </view>
+  <view class="answerport-bar">
+    <view class="back">返回章节目录</view>
+    <view class="next">作答下一个知识点</view>
+  </view>
+  <view class="check-ques">
+    <text class="title">单选题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li warining">2</view>
+      <view class="li checked">3</view>
+      <view class="li">4</view>
+      <view class="li">5</view>
+      <view class="li">6</view>
+      <view class="li checked">7</view>
+      <view class="li">8</view>
+      <view class="li warining">9</view>
+      <view class="li">10</view>
+      <view class="li">11</view>
+      <view class="li">12</view>
+      <view class="li">13</view>
+      <view class="li">14</view>
+      <view class="li">15</view>
+      <view class="li">16</view>
+      <view class="li">17</view>
+    </view>
+
+    <text class="title">多选题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li">2</view>
+      <view class="li">3</view>
+      <view class="li">4</view>
+      <view class="li">5</view>
+      <view class="li">6</view>
+      <view class="li">7</view>
+    </view>
+
+    <text class="title">填空题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li">2</view>
+    </view>
+  </view>
+  <view class="footer">
+    <text class="answer">查看错误解析</text>
+    <text class="tell">查看全部解析</text>
+  </view>
+</view>

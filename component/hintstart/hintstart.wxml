@@ -1,0 +1,31 @@
+<!--component/hintstart/hintstart.wxml-->
+<template name="hintstart">
+  <view class="hintstart">
+    <view class="hintstart-small">
+      <view class="title">
+        2018年10月《中国文化概论》真题卷
+      </view>
+      <view class="content">
+        <text class="name">考试时间</text>
+        <text class="detail">150分钟</text>
+      </view>
+      <view class="content">
+        <text class="name">所属课程</text>
+        <text class="detail">中国文化概论</text>
+      </view>
+      <view class="content">
+        <text class="name">难易程度</text>
+        <text class="detail">较难  </text>
+      </view>
+      <view class="content">
+        <text class="name">试卷满分</text>
+        <text class="detail">100分</text>
+      </view>
+      <view class="content">
+        <text class="name">通过分数</text>
+        <text class="detail">60分</text>
+      </view>
+      <button>开始做题</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,149 @@
+/* pages/answerport/answerport.wxss */
+page{
+  background: #fafafa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.answerport {
+  padding-bottom: 102rpx;
+}
+.answerport .header{
+  background: #146BB3;
+  width: 100%;
+  height: 168rpx;
+  padding: 38rpx 0 0 32rpx;
+}
+.answerport .header text{
+  color: #fff;
+  display: flex;
+  text-align: left;
+}
+.answerport .header .dat{
+  font-size: 24rpx;
+  margin-bottom: 14rpx;
+}
+.answerport .header .numdot{
+  font-size: 56rpx;
+}
+.answerport .top-ul{
+  width: 100%;
+  background: #fff;
+}
+.answerport .top-ul .top-li{
+  float: left;
+  width: 50%;
+  height: 78rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #dfdfdf;
+}
+.answerport .top-ul .top-li:nth-child(even){
+  border-left: 1rpx solid #dfdfdf;
+}
+.answerport .top-ul .top-li image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 20rpx 0 0;
+}
+.answerport .top-ul .top-li .total{
+  font-size: 28rpx;
+  color: #1D2B40;
+  flex: 1;
+}
+.answerport .top-ul .top-li .que{
+  font-size: 28rpx;
+  color: #C0C6CC;
+}
+.answerport .answerport-bar {
+  width: 100%;
+  height: 108rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22rpx;
+}
+.answerport .answerport-bar .back{
+  text-align: center;
+  font-size: 28rpx;
+  color: #1D2B40;
+  flex: 1;
+}
+.answerport .answerport-bar .next{
+  text-align: center;
+  font-size: 28rpx;
+  color: #146BB3;
+  flex: 1;
+
+}
+.answerport .check-ques{
+  padding-top: 19rpx;
+  overflow: hidden;
+  background: #fff;
+
+}
+.answerport .check-ques .title{
+  font-size: 34rpx;
+  color: #1D2B40;
+  padding: 9rpx 50rpx 9rpx 50rpx;
+  display: block;
+}
+.answerport .check-ques .ul{
+  padding: 0 18rpx 0 12rpx;
+}
+.answerport .check-ques .ul .li{
+  width: 65rpx;
+  height: 65rpx;
+  margin: 31rpx 40rpx;
+  border-radius: 50%;
+  line-height: 65rpx;
+  text-align: center;
+  font-size: 24rpx;
+  background: #7D90AB;
+  color: #fff;
+  float: left;
+}
+.answerport .check-ques .ul .checked{
+  background: #FAFAFA !important;
+  color: #000 !important;
+  border: 2rpx solid #C0C6CC !important;
+}
+.answerport .check-ques .ul .warining{
+  background: #FF7112 !important;
+  color: #fff !important;
+}
+
+.answerport .footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.answerport .footer .answer{
+  font-size: 36rpx;
+  color: #7D90AB;
+  text-align: center;
+  line-height: 110rpx;
+  box-shadow:0px 0px 6px rgba(0,0,0,0.16);
+  flex: 1;
+  background: #fff;
+}
+.answerport .footer .tell{
+  font-size: 36rpx;
+  color: #fff;
+  background: #146BB3;
+  text-align: center;
+  line-height: 110rpx;
+  flex: 1;
+}

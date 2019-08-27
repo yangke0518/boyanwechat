@@ -1,0 +1,50 @@
+/* component/hintstart/hintstart.wxss */
+.hintstart{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.53);
+  height: 100%;
+  width: 100%;
+}
+.hintstart .hintstart-small{
+  width: 620rpx;
+  min-height: 696rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.hintstart .hintstart-small .title{
+  color: #1D2B40;
+  font-size: 32rpx;
+  text-align: center;
+  margin: 36rpx 0 58rpx 0;
+}
+.hintstart .hintstart-small .content{
+  font-size: 30rpx;
+  margin: 0 0 46rpx 46rpx;
+}
+.hintstart .hintstart-small .content .name{
+  color: #1D2B40;
+}
+.hintstart .hintstart-small .content .detail{
+  color: #7D90AB;
+  margin:  0 0 0 40rpx;
+}
+button{
+  width: 100%;
+  height:110rpx;
+  background: #146BB3;
+  line-height: 110rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #fff;
+  border-radius: 0 0 10rpx 10rpx;
+  position: absolute;
+  bottom: 0;
+}

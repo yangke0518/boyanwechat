@@ -1,11 +1,16 @@
-/* pages/wrongtitle/wrongtitle.wxss */
+/* @import "/component/hintstart/hintstart.wxss"; */
+/* @import "/component/dotfooter/dotfooter.wxss"; */
 page{
   background: #fafafa;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 .wrongtitle .top {
   width: 200rpx;
-  margin: 112rpx auto 0;
+  margin: 0 auto 72rpx;
   text-align: center;
+  padding-top: 112rpx;
 }
 .wrongtitle .top .num{
   font-size: 60rpx;
@@ -20,6 +25,18 @@ page{
   font-size: 28rpx;
   color: #1D2B40;
   display: block;
+}
+.wrongtitle .ul {
+  width: 668rpx;
+  height: 152rpx;
+  background: #fff;
+  margin: 0 auto 12rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28rpx 0 42rpx;
+  box-shadow:0px 0px 2rpx rgba(0,0,0,0.16);
+  border-radius: 10rpx;
 }
 .wrongtitle .ul .left1{
   width: 90rpx;
@@ -45,16 +62,21 @@ page{
   margin: 0 auto ;
   padding-top: 22rpx;
 }
+.wrongtitle .ul .li{
+  margin-left: 28rpx;
+  flex: 1;
+}
 .wrongtitle .ul .li .learn{
   font-size: 28rpx;
   color: #1D2B40;
+  display: block;
 }
 .wrongtitle .ul .li .topic{
   font-size: 24rpx;
   color: #A4A3A3;
 }
 .wrongtitle .ul button{
-  width: 146rpx;
+  width: 130rpx;
   height: 52rpx;
   background: #146BB3;
   border-radius:10rpx;
@@ -62,4 +84,6 @@ page{
   color: #fff;
   line-height: 50rpx;
   text-align: center;
+  padding: 0 16rpx;
 }
+

@@ -1,0 +1,68 @@
+/* pages/sectionlearn/sectionlearn.wxss */
+page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.sectionlearn{
+  padding: 31rpx 0 0 0;
+
+}
+.sectionlearn .title{
+  font-size: 34rpx;
+  color: #1D2B40;
+  margin: 9rpx 0 9rpx 0;
+  display: block;
+  padding: 0 50rpx;
+}
+.sectionlearn .ul{
+  padding: 0 18rpx 0 12rpx;
+}
+.sectionlearn .ul .li{
+  width: 65rpx;
+  height: 65rpx;
+  margin: 31rpx 40rpx;
+  border-radius: 50%;
+  line-height: 65rpx;
+  text-align: center;
+  font-size: 24rpx;
+  background: #7D90AB;
+  color: #fff;
+  float: left;
+}
+.checked{
+  background: #FAFAFA !important;
+  color: #000 !important;
+  border: 2rpx solid #C0C6CC !important;
+}
+.sectionlearn .footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionlearn .footer .answer{
+  font-size: 36rpx;
+  color: #7D90AB;
+  text-align: center;
+  line-height: 110rpx;
+  box-shadow:0px 0px 6px rgba(0,0,0,0.16);
+  flex: 1;
+}
+.sectionlearn .footer .tell{
+  font-size: 36rpx;
+  color: #fff;
+  background: #146BB3;
+  text-align: center;
+  line-height: 110rpx;
+  flex: 1;
+
+}

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/answerport/answerport",
+    "pages/sectionlearn/sectionlearn",
     "pages/wrongtitle/wrongtitle",
     "pages/topicrecord/topicrecord",
     "pages/yeartopic/yeartopic",
@@ -13,7 +15,7 @@
     "pages/mytuition/mytuition",
     "pages/learncost/learncost",
     "pages/mycomplaint/mycomplaint",
-    "pages/historyresult/historyresult",  
+    "pages/historyresult/historyresult",
     "pages/myteacher/myteacher",
     "pages/mydata/mydata",
     "pages/mycenter/mycenter",
