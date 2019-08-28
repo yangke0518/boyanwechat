@@ -22,8 +22,8 @@ Page({
   },
   // 登录
   goLogin(){
-    wx.navigateTo({
-      url: '/pages/home/home'
+    wx.switchTab({
+      url: '/pages/home/home',
     })
   },
   
