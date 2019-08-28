@@ -28,20 +28,20 @@
   align-items: center;
   margin-top: 58rpx;
   padding: 0 40rpx 0 48rpx;
-  
 }
-
 .login .form .border .left{
   height: 38rpx;
   width: 38rpx;
 }
 .login .form .border input{
   font-size: 24rpx;
-  color: #A4A3A3;
+  color: #000;
   line-height: 90rpx;
   flex: 1;
   height: 100%;
-  
+}
+.login .form .border .black{
+  color: #A4A3A3;
 }
 .login .form .border .right{
   height: 32rpx;

@@ -1,11 +1,24 @@
 // pages/login/login.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    userPhone:'',
+    userPsd:'',
+    password:true,
+    imgSrc:'/images/login-eye.png'
+  },
+  showeyes() {
+    this.setData({
+      password: !this.data.password
+    })
+  },
+  // 清空手机号
+  clearphone(){
+    this.setData({
+      userPhone:''
+    })
   },
   // 登录
   goLogin(){
@@ -13,6 +26,7 @@ Page({
       url: '/pages/home/home'
     })
   },
+  
   /**
    * 生命周期函数--监听页面加载
    */
