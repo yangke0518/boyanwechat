@@ -3,6 +3,25 @@
   <view class="list-view">
     <text>姓名</text>
     <input type="text" placeholder-class="phcolor" placeholder="Jane"></input>
-    <image src="/images/mycenter/mycenter11.png"></image>
+  </view>
+  <view class="list-view">
+    <text>手机号</text>
+    <input type="text" placeholder-class="phcolor" placeholder="180****4933"></input>
+  </view>
+  <view class="list-view">
+    <text>当前学历</text>
+    <input type="text" placeholder-class="phcolor" placeholder="专科"></input>
+  </view>
+  <view class="list-view">
+    <text>报考类别</text>
+    <input type="text" placeholder-class="phcolor" placeholder="本科"></input>
+  </view>
+  <view class="list-view">
+    <text>报考院校</text>
+    <input type="text" placeholder-class="phcolor" placeholder="广州大学"></input>
+  </view>
+  <view class="list-view">
+    <text>我的准考证</text>
+    <input type="text" placeholder-class="phcolor" placeholder=""></input>
   </view>
 </view>

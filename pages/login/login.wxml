@@ -2,18 +2,23 @@
 <view class="login">
   <image class='login-logo' src='/images/login-logo.png' ></image>
   <text class="title">博研教育</text>
-  <view class="form">
-    <view class="border">
-      <image src="/images/login-people.png" class="left"></image>
-      <input placeholder="请输入手机号" value="{{userPhone}}" max-length="11" placeholder-class="black" type="number" maxlength="11" auto-focus />
-      <image src="/images/login-x.png" class="right" bindtap="clearphone"></image>
+  <form bindsubmit="loginSubmit">
+    <view class="form">
+      <view class="border">
+        <image src="/images/login-people.png" class="left"></image>
+        <input placeholder="请输入手机号" value="{{userPhone}}" name="userPhone" max-length="11" placeholder-class="black" type="number" maxlength="11" auto-focus />
+        <image src="/images/login-x.png" class="right" bindtap="clearphone"></image>
+      </view>
+      <view class="border">
+        <image src="/images/login-key.png" class="left"></image>
+        <input placeholder="请输入密码" value="{{userPsd}}" name="userPsd" password="{{password}}" max-length="23" placeholder-class="black" auto-focus/>
+        <image src="{{password?'/images/login-eye.png':'/images/login-eye1.png'}}" class="right" bindtap="showeyes"></image>
+      </view>
+      <button form-type="submit" class="login">登录</button>
     </view>
-    <view class="border">
-      <image src="/images/login-key.png" class="left"></image>
-      <input placeholder="请输入密码" value="{{userPsd}}" password="{{password}}" max-length="23" placeholder-class="black" auto-focus/>
-      <image src="{{password?'/images/login-eye.png':'/images/login-eye1.png'}}" class="right" bindtap="showeyes"></image>
-    </view>
-    <button bindtap="goLogin" class="login">登录</button>
-  </view>
+  </form>
 </view>
+
+
+
 

@@ -43,24 +43,47 @@
   margin:50rpx 0 0 0;
   font-size: 24rpx;
   color: #1D2B40;
-
+  position: relative;
 }
-.learndetail .question .usercheck .radio text{
-  font-size: 28rpx;
-  color: #7D90AB;
+.learndetail .question .usercheck .radio .ui-checkbox .ui-ckBox-checkbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 50rpx;
+  display: block;
+  opacity: 0;
 }
-.learndetail .question .usercheck radio .wx-radio-input{
+.learndetail .question .usercheck .radio .ui-checkbox .ui-ckBox-nameBox{
   height: 65rpx;
   width: 65rpx;
   border-radius: 50%;
   background: #F1F2F3;
   border: none;
   color:#1D2B40;
-} 
+  display: block;
+  line-height: 65rpx;
+  text-align: center;
+}
+.learndetail .question .usercheck .radio .ui-checkbox .ui-ckBox-nameBox .checkbox{
+  font-size: 28rpx;
+  color: #7D90AB;
+}
+.learndetail .question .usercheck .radio .ui-checkbox .ui-ckBox-namechecked{
+  background: #7D90AB;
+}
+.learndetail .question .usercheck .radio .ui-checkbox .ui-ckBox-namechecked .checkbox{
+  font-size: 28rpx;
+  color: #fff;
+}
 
 
-.learndetail .question .usercheck radio .wx-radio-input.wx-radio-input-checked::before{
-  content:'A';
+
+
+/* .learndetail .question .usercheck radio .wx-radio-input.wx-radio-input-checked::before{
+  content:'';
   background: #7D90AB;
   color: #fff;
   height: 65rpx;
@@ -68,4 +91,4 @@
   border-radius: 50%;
   line-height: 65rpx;
   text-align: center;
-}
+} */

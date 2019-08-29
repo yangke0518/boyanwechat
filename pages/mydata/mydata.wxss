@@ -16,8 +16,9 @@
 .mydata .list-view input{
   flex: 1;
   text-align: right;
-  margin-right: 26rpx;
   height: 100%;
+  font-size: 28rpx;
+
 }
 .mydata .list-view image{
    width: 25rpx;

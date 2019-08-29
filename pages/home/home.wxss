@@ -1,12 +1,10 @@
 /* pages/home/home.wxss */
-.home{
-  padding-bottom: 110rpx;
-}
+
 .home .top-title{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 30rpx;
 }
 .home .top-title .area{
   height: 39rpx;

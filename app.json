@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/login/login",
-    
+    "pages/lengthlearn/learndetail",   
+    "pages/lengthlearn/lengthlearn",
     "pages/home/home",
-    
+    "pages/login/login", 
+    "pages/mymajor/mymajor",
     "pages/answerport/answerport",
     "pages/sectionlearn/sectionlearn",
     "pages/wrongtitle/wrongtitle",
@@ -11,8 +12,6 @@
     "pages/yeartopic/yeartopic",
     "pages/mydownload/mydownload",
     "pages/mynetwork/mynetwork",
-    "pages/lengthlearn/learndetail",
-    "pages/lengthlearn/lengthlearn",
     "pages/myquestionbank/myquestionbank",
     "pages/mynetcourse/mynetcourse",
     "pages/mymessage/mymessage",
@@ -23,7 +22,7 @@
     "pages/myteacher/myteacher",
     "pages/mydata/mydata",
     "pages/mycenter/mycenter",
-    "pages/mymajor/mymajor"
+    "pages/putquestion/putquestion"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -33,22 +32,21 @@
   },
   "tabBar": {
     "color": "#A4A3A3",
-      "selectedColor": "#146BB3",
-        "list": [
-          {
-            "pagePath": "pages/home/home",
-            "text": "我的课程",
-            "iconPath": "images/home-people.png",
-            "selectedIconPath": "images/home-people1.png"
-          },
-          {
-            "pagePath": "pages/mycenter/mycenter",
-            "text": "个人中心",
-            "iconPath": "images/home-book1.png",
-            "selectedIconPath": "images/home-book.png"
-          }
-        ]
+    "selectedColor": "#146BB3",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的课程",
+        "iconPath": "images/home-book1.png",
+        "selectedIconPath": "images/home-book.png"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "text": "个人中心",
+        "iconPath": "images/home-people.png",
+        "selectedIconPath": "images/home-people1.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
-  
 }

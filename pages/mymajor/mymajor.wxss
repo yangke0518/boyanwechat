@@ -14,25 +14,29 @@ page{
   background: #F1F2F3;
   
 }
-.mymajor .mymajor-left text{
+.mymajor .mymajor-left .grade{
+  height: 72rpx;
+  padding: 20rpx 0;
+
+}
+.mymajor .mymajor-left .grade text{
   display: block;
   width: 100%;
   font-size: 28rpx;
   color: #828282;
-  height: 72rpx;
-  line-height: 72rpx;
   text-align: center;
-
 }
 .mymajor .mymajor-left .active{
-  background: #fff;
   color: #0C0C0C;
-
-
+  background: #fff;
+}
+.mymajor .mymajor-left .active text{
+  border-left: 4rpx solid #146BB3;
 }
 .mymajor .mymajor-right{
   flex: 1;
   padding: 22rpx 0 0 40rpx;
+  /* display: none; */
 }
 .mymajor .mymajor-right .title{
   font-size: 30rpx;
@@ -73,4 +77,7 @@ page{
   font-size: 24rpx;
   color: #707070;
   line-height: 34rpx;
+}
+.show{
+  display: block !important;
 }

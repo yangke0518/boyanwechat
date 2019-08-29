@@ -29,7 +29,6 @@ Page({
     var imgh = e.detail.height;
     var imgw = e.detail.width;
     var sH = winWid *imgh/imgw +'rpx'
-    console.log(sH);
 
     this.setData({
       swiperH:sH
@@ -48,6 +47,11 @@ Page({
   mynetlearn() {
     wx.navigateTo({
       url: "/pages/mynetwork/mynetwork",
+    })
+  },
+  mymajor(){
+    wx.navigateTo({
+      url: "/pages/mymajor/mymajor",
     })
   },
   /**

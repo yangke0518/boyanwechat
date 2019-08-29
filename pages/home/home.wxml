@@ -3,7 +3,7 @@
   <view class="top-title">
     <image class="area" src="/images/home-area.png"></image>
     <text>湖北省</text>
-    <view class="showcourse">
+    <view class="showcourse" bindtap="mymajor">
       行政管理本科<image src="/images/home-1.png"></image>
     </view>
   </view>

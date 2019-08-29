@@ -21,7 +21,46 @@ Page({
     })
   },
   // 登录
-  goLogin(){
+  loginSubmit(e){
+    let {userPhone, userPsd} = e.detail.value;
+    // const phoneReg = /^1[0-9]{10}$/;
+    // const psdReg = /^[\w\W]{6,26}$/;
+    // if (userPhone==''){
+    //   wx.showToast({
+    //     title: '请输入手机号',
+    //     icon:'none',
+    //     duration: 2000
+    //   })
+    //   return;
+    // }else if(userPsd==''){
+    //   wx.showToast({
+    //     title: '请输入密码',
+    //     icon: 'none',
+    //     duration: 2000
+    //   })
+    //   return;
+    // }else if (!(phoneReg.test(userPhone))){
+    //   wx.showToast({
+    //     title: '手机号格式不对',
+    //     icon: 'none',
+    //     duration: 2000
+    //   })
+    //   return;
+    // }else if(!(psdReg.test(userPsd))){
+    //   wx.showToast({
+    //     title: '密码请输入6-26位任意字符',
+    //     icon: 'none',
+    //     duration: 2000
+    //   })
+    //   return;
+    // }else{
+    //   console.log(userPhone)
+    //   console.log(userPsd)
+      
+    // }
+
+    console.log(userPhone)
+    console.log(userPsd)
     wx.switchTab({
       url: '/pages/home/home',
     })
