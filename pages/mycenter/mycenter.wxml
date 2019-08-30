@@ -1,4 +1,5 @@
 <!--pages/mycenter/mycenter.wxml-->
+
 <view class="mycenter">
   <view class="mycenter-top clearfix">
     <image class="logo" src="/images/mycenter/mycenter4.png"></image>

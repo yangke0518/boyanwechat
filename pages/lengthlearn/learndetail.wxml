@@ -4,22 +4,28 @@
     <text class="topic">单选题</text>
     <text class="colorblur">1</text><text>/</text><text>18</text>
   </view>
-  <view class="question" wx:for="{{quesitems}}" wx:key="item">
-    <text class="name">{{item.title}}</text>
-    <view class="usercheck">
-      <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}">
-        <label class="radio">
-          <!-- <radio value="{{professionitem.name}}" checked="{{professionitem.checked}}"/> -->
-          <view class="ui-checkbox">
-            <input class="ui-ckBox-checkbox" type="checkbox"></input>
-            <text class="ui-ckBox-nameBox">
-              <text class="checkbox">{{professionitem.name}}</text>
-            </text>
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex">
+    <!-- <view> -->
+      <view style="width:100%;display:inline-block;" class="question" wx:for="{{quesitems}}" wx:key="id"  wx:for-index="outterIndex">
+        <text class="name">{{item.title}}</text>
+        <view class="usercheck">
+          <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}" data-outidx='{{outterIndex}}' data-idx="{{index}}" bindtap="inputchecked">
+            <label class="radio">
+              <!-- <radio value="{{professionitem.name}}" checked="{{professionitem.checked}}"/> -->
+              <view class="ui-checkbox">
+                <input class="ui-ckBox-checkbox" type="checkbox" ></input>
+                <text class="ui-ckBox-nameBox">
+                  <text class="checkbox">{{professionitem.name}}</text>
+                </text>
+              </view>
+              <text>{{professionitem.value}}</text>
+            </label>
           </view>
-          <text>{{professionitem.value}}</text>
-        </label>
+        </view>
       </view>
-    </view>
-  </view>
+    <!-- </view> -->
+    
+  </scroll-view>
+  
 </view>
 

@@ -1,5 +1,5 @@
 // pages/lengthlearn/learndetail.js
-Component({
+Page({
   /**
    * 组件的初始数据
    */
@@ -7,6 +7,8 @@ Component({
     quesitems: [
       {
         title:'1,“文质彬彬，然后君子。”这段文字出自（ ）',
+        id:1,
+        type:1,
         question: [
           { name: 'A', value: '《礼记·中庸》'},
           { name: 'B', value: '《论语·雍也》'},
@@ -16,6 +18,8 @@ Component({
       },
       {
         title: '2,“文质彬彬，然后君子。”这段文字出自（ ）',
+        id: 2,
+        type: 1,
         question: [
           { name: 'A', value: '《礼记·中庸》' },
           { name: 'B', value: '《论语·雍也》' },
@@ -25,6 +29,8 @@ Component({
       },
       {
         title: '3,“文质彬彬，然后君子。”这段文字出自（ ）',
+        id: 3,
+        type: 2,
         question: [
           { name: 'A', value: '《礼记·中庸》' },
           { name: 'B', value: '《论语·雍也》' },
@@ -35,23 +41,11 @@ Component({
     ]
   },
     
-  radioChange: function(e) {
-    console.log('radio发生change事件，携带value值为：', e.detail.value)
-  },
-  /**
-   * 组件的属性列表
-   */
-  properties: {
-
-  },
-
-  
-  
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
+  inputchecked(e){
+    console.log(e.currentTarget.dataset);
+    let idx = e.currentTarget.dataset.idex; //答案编号
+    let outidx = e.currentTarget.outidx; //题目编号
+    let question = this.data.quesitems[outidx];
+    console.log(question);
+  },  
 })

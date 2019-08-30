@@ -1,4 +1,5 @@
 <!--pages/home/home.wxml-->
+
 <view class="home">
   <view class="top-title">
     <image class="area" src="/images/home-area.png"></image>
