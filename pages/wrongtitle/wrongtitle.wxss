@@ -1,5 +1,4 @@
-/* @import "/component/hintstart/hintstart.wxss"; */
-/* @import "/component/dotfooter/dotfooter.wxss"; */
+
 page{
   background: #fafafa;
   position: relative;

@@ -31,18 +31,31 @@
   </view>
   <view class="notice">
     <image src="/images/mycenter/mycenter10.png"></image>
-    <text>通知公告：请及时缴费</text>
+    <view class="text">
+      <text>通知公告：</text>
+      <!-- <block wx:for="{{mymsg}}" wx:key="item">{{item.list}}</block> -->
+      <swiper indicator-dots="false" vertical="true" circular="true"
+        autoplay="true" interval="2000" duration="500">
+        <block wx:for="{{mymsg}}" wx:key="item">
+          <swiper-item>
+            <text class="slide-image">{{item.list}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+      <!-- <block>1213</block> -->
+    </view>
   </view>
   <view class="ul">
     <view class="li" bindtap="gomymessage">
       <image class="left-image" src="/images/mycenter/mycenter3.png"></image>
       <text>我的消息</text>
-      <view class="reddot">2</view>
+      <view class="reddot">{{noticeNum}}</view>
       <image class="right" src="/images/mycenter/mycenter11.png"></image>
     </view>
      <view class="li" bindtap="goputquestion">
       <image  class="left-image" src="/images/mycenter/mycenter2.png"></image>
       <text>我的提问</text>
+      <view class="reddot" wx:if="{{myquestion>0}}">{{myquestion}}</view>
       <image class="right" src="/images/mycenter/mycenter11.png"></image>
     </view>
      <view class="li" bindtap="gomycomplaint">

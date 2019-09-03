@@ -1,6 +1,6 @@
 <!--pages/myquestionbank/myquestionbank.wxml-->
 <view class="myquestionbank">
-  <view class="myquestionbank-li">
+  <view class="myquestionbank-li" bindtap="golengthlearn">
     <image class="left" src="/images/myquestionbank/question1.png"></image>
     <text>章节练习</text>
     <image class="right" src="/images/mycenter/mycenter11.png"></image>
@@ -42,3 +42,4 @@
   </view>
 </view>
 
+ 

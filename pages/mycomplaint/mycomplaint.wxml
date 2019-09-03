@@ -1,5 +1,5 @@
 <!--pages/mycomplaint/mycomplaint.wxml-->
 <view class="mycomplaint">
-  <textarea placeholder="这是一个可以自动聚焦的textarea" auto-focus />
-  <button>提交</button>
+  <textarea value="{{complainvalue}}" bindinput="changequesvalue" placeholder="请输入您的投诉" auto-focus />
+  <button bindtap="submitques">提交</button>
 </view>

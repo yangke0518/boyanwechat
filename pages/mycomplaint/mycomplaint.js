@@ -1,23 +1,21 @@
-// pages/mycomplaint/mycomplaint.js
-Component({
-  /**
-   * 组件的属性列表
-   */
-  properties: {
-
-  },
-
-  /**
-   * 组件的初始数据
-   */
+Page({
   data: {
-
+    complainvalue: "",
   },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
+  changequesvalue: function (e) {
+    this.setData({
+      complainvalue: e.detail.value
+    })
+  },
+  submitques: function () {
+    console.log(this.data.complainvalue);
+    if (this.data.complainvalue == "") {
+      wx.showToast({
+        title: '请输入您的投诉',
+        icon: 'none',
+      })
+    } else {
+      console.log('进行问题提交')
+    }
+  },
 })

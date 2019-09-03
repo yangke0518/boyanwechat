@@ -13,7 +13,7 @@ Page({
     this.setData({
       password: !this.data.password
     })
-  },
+  }, 
   // 清空手机号
   clearphone(){
     this.setData({

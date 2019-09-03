@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/lengthlearn/learndetail",   
+    "pages/lengthlearn/learndetail",
+    "pages/answerport/answerport",
     "pages/lengthlearn/lengthlearn",
+    "pages/mycenter/mycenter",
+    "pages/mymajor/mymajor",
     "pages/home/home",
     "pages/login/login", 
-    "pages/mymajor/mymajor",
-    "pages/answerport/answerport",
     "pages/sectionlearn/sectionlearn",
     "pages/wrongtitle/wrongtitle",
     "pages/topicrecord/topicrecord",
@@ -21,7 +22,6 @@
     "pages/historyresult/historyresult",
     "pages/myteacher/myteacher",
     "pages/mydata/mydata",
-    "pages/mycenter/mycenter",
     "pages/putquestion/putquestion"
   ],
   "window": {

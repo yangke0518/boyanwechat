@@ -1,35 +1,25 @@
 <!--pages/mymajor/mymajor.wxml-->
 <view class="mymajor">
   <view class="mymajor-left">
-    <view class="grade" wx:for="{{majordata}}" wx:key="item">
-      <text>{{item.major}}</text>
+    <block wx:for="{{majordata}}" wx:key="item">
+      <view data-gid="{{item.id}}" bindtap="switchRightTab"  class="grade {{leftactive==item.id?'active':''}}">
+        <text>{{item.major}}</text>
+      </view> 
+    </block>
+  </view> 
+  <block wx:for="{{majordata}}" wx:key="item">
+    <view class="mymajor-right {{leftactive==item.id?'show':'none'}}" >
+      <text class="title">{{item.detail.name}}</text>
+      <text class="univer">报名学校：{{item.detail.univ}}</text>
+      <block wx:for="{{item.detail.kemu}}" wx:for-item="kemuitem" wx:key="{{kemuitem}}">
+        <view class="course" bindtap="showrightdetail" data-iid="{{kemuitem}}"><text class="dot"></text>{{kemuitem.name}}</view>
+        <view class="content {{kemuitem.name==rightactive?'show':'none'}}">
+          <text class="content-detail">考试时间：{{kemuitem.time}}</text>
+          <text class="content-detail">考试地点：{{kemuitem.address}}</text>
+        </view>
+      </block>
     </view>
-    <!-- <view class="grade">
-      <text>本科</text>
-    </view> -->
-  </view>
-  <view wx:for="{{majordata.detail}}" wx:key="item">
-    <view class="mymajor-right">
-      <text class="title">{{item.datail.name}}</text>
-      <text class="univer">报名学校：{{item.datail.univ}}</text>
-      <view class="course"><text class="dot"></text>政治</view>
-      <view class="content" hidden="{{!address}}">
-        <text class="content-detail">考试时间：2019年4月10号 上午9:00</text>
-        <text class="content-detail">考试地点：政治考点</text>
-      </view>
-      <view class="course"><text class="dot"></text>英语</view>
-      <view class="content">
-        <text class="content-detail">考试时间：2019年4月10号 上午9:00</text>
-        <text class="content-detail">考试地点：英语考点</text>
-      </view>
-      <view class="course"><text class="dot"></text>数学</view>
-      <view class="content">
-        <text class="content-detail">考试时间：2019年4月10号 上午9:00</text>
-        <text class="content-detail">考试地点：数学考点</text>
-      </view>
-    </view>
-  </view>
-  
+  </block>
 
   <!-- <view class="mymajor-right {{major?'show':''}}">
     <text class="title">自考-人力资源管理</text>

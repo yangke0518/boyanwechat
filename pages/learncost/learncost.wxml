@@ -1,6 +1,5 @@
 <!--pages/learncost/learncost.wxml-->
 <!-- <text>pages/learncost/learncost.wxml</text> -->
-
 <view class="learncost">
   <view class="learncost-top">
     <text>欠缴费用（元）</text>

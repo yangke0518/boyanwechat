@@ -1,11 +1,13 @@
 // pages/mycenter/mycenter.js
 Page({
-  // 去个人资料
-  gomydata(){
-    wx.navigateTo({
-      url:'/pages/mydata/mydata',
-    })
+  data:{
+    mymsg:[
+      {list:"1.请及时缴费"},{list:"2.请及时缴费"}  
+    ],
+    noticeNum:3,
+    myquestion:0
   },
+ 
   // 去我的缴费
   golearncost(){
     wx.navigateTo({
@@ -48,25 +50,4 @@ Page({
       url:'/pages/mycomplaint/mycomplaint',
     })
   },
-
-  /**
-   * 组件的属性列表
-   */
-  properties: {
-
-  },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
 })

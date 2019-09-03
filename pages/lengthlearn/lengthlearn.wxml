@@ -1,6 +1,33 @@
 <!--pages/lengthlearn/lengthlearn.wxml-->
 <view class="lengthlearn">
-  <view class="lengthlearn-li">
+  <block wx:for="{{list}}" wx:key="item">
+    <view class="lengthlearn-li"> 
+      <view class="title" bindtap="changeadd" data-gid="{{item.id}}" data-gflag="{{item.addFlagBig}}">
+        <image class="abroad" src="{{item.addFlagBig?'/images/reduce.png':'/images/add.png'}}"></image>
+        <text class="title-text">{{item.bigtitle}}</text>
+      </view>
+      <view class="son {{item.addFlagBig?'block':'none'}}" >
+        <block wx:for="{{item.learn}}" wx:for-item="learnitem" wx:key="{{learnitem}}">
+          <view class="son-title" bindtap="changesmalladd" data-sid="{{learnitem.sid}}">
+            <image class="son-img" src="{{learnitem.addFlagSmall?'/images/reduce.png':'/images/add.png'}}"></image>
+            <text class="table">{{learnitem.title}}</text>
+            <text class="question">共{{learnitem.total}}道题</text>
+          </view>
+          <block wx:for="{{learnitem.detail}}" wx:for-item="detailitem" wx:key="{{detailitem}}">
+            <view class="son-content {{learnitem.addFlagSmall?'block':'none'}}">
+              <text class="son-content-title">{{detailitem.son}}</text>
+              <text class="son-content-detail">-<text class="colorBule">{{detailitem.start}}</text>/<text>{{detailitem.end}}</text>-</text>
+            </view>
+          </block>
+        </block>       
+      </view>
+    </view>
+  </block>
+</view>
+
+<!-- pages/lengthlearn/lengthlearn.wxml
+<view class="lengthlearn">
+  <view class="lengthlearn-li"> 
     <view class="title">
       <image class="abroad" src="/images/add.png"></image>
       <text class="title-text">第一章 绪论</text>
@@ -33,4 +60,4 @@
       <text class="title-text">第二章 中国文化的地理背景</text>
     </view>
   </view>
-</view>
+</view> -->

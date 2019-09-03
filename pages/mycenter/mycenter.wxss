@@ -69,15 +69,26 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 .mycenter .notice image{
   width: 52rpx;
   height: 52rpx;
   margin: 0 52rpx 0 40rpx;
 }
-.mycenter .notice text{
+.mycenter .notice .text{
   font-size: 28rpx;
   color: #7D90AB;
+  line-height: 52rpx;
+  flex: 1;
+}
+.mycenter .notice .text text{
+  float: left;
+}
+.mycenter .notice .text swiper{
+  width: 100%;
+  height: 52rpx;
+  margin-left: 140rpx;
 }
 .mycenter .ul .li{
   width: 100%;

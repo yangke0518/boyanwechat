@@ -1,19 +1,18 @@
 // pages/learncost/learncost.js
-Component({
+Page({
   /**
-   * 组件的属性列表
-   */
-  properties: {
-
-  },
-
-  /**
-   * 组件的初始数据
+   * 页面的初始数据
    */
   data: {
+    list:[
+      {
 
+      },
+      {
+
+      }
+    ]
   },
-
   /**
    * 组件的方法列表
    */

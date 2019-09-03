@@ -1,4 +1,3 @@
-/* pages/lengthlearn/learndetail.wxss */
 page{
   background: #fafafa;
 }
@@ -22,6 +21,10 @@ page{
 .learndetail .question{
   padding: 0 42rpx;
   margin-top: 44rpx;
+  min-height: 600rpx;
+}
+.learndetail .question swiper-item{
+  overflow: visible !important;
 
 }
 .learndetail .question .name{ 

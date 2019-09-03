@@ -1,6 +1,6 @@
 <!--component/hintstart/hintstart.wxml-->
 <template name="hintstart">
-  <view class="hintstart">
+  <view class="hintstart" wx:if="{{showhint}}">
     <view class="hintstart-small">
       <view class="title">
         2018年10月《中国文化概论》真题卷
@@ -25,7 +25,7 @@
         <text class="name">通过分数</text>
         <text class="detail">60分</text>
       </view>
-      <button>开始做题</button>
+      <button bindtap="closehint" hover-class="none">开始做题</button>
     </view>
   </view>
 </template>

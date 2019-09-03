@@ -1,23 +1,23 @@
 // pages/putquestion/putquestion.js
-Component({
-  /**
-   * 组件的属性列表
-   */
-  properties: {
-
+Page({
+  data:{
+    questionvalue:"",
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
+  changequesvalue:function(e){
+    this.setData({
+      questionvalue:e.detail.value
+    })
   },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
+  submitques:function(){
+    console.log(this.data.questionvalue);
+    if (this.data.questionvalue==""){
+      wx.showToast({
+        title: '请输入您的提问',
+        icon: 'none',
+      })
+    }else{
+      console.log('进行问题提交')
+    }
+  },
 })
+ 
