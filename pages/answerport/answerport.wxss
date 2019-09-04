@@ -8,7 +8,7 @@ page{
   bottom: 0;
   height: 100%;
   width: 100%;
-}
+} 
 .answerport {
   padding-bottom: 102rpx;
 }
@@ -85,9 +85,9 @@ page{
 }
 .answerport .check-ques{
   padding-top: 19rpx;
-  overflow: hidden;
+  overflow-y: scroll;
   background: #fff;
-
+  padding-bottom: 120rpx;
 }
 .answerport .check-ques .title{
   font-size: 34rpx;

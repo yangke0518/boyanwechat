@@ -1,6 +1,9 @@
 <!-- 引用弹框组件 -->
-<import src="/component/hintstart/hintstart" />
-<template is="hintstart" data="{{showhint}}"/>
+<!-- <import src="/component/hintstart/hintstart" />
+<template is="hintstart" data="{{showhint}}"/> -->
+<!-- 引用手势滑动组件 -->
+<!-- <import src="/component/hintstart/slide" />
+<template is="slidestart" data="{{showhint,slidehint}}"/> -->
 
 <view class="learndetail">
   <view class="learndetail-title">
@@ -8,16 +11,15 @@
     <text class="colorblur">1</text><text>/</text><text>18</text>
   </view>
   <swiper duration="500"  class="question">
-    <!-- <view> -->
-      <block wx:for="{{quesitems}}" wx:key="id"  wx:for-index="outterIndex">
-        <swiper-item>
+      <block wx:for="{{quesitems}}" wx:key="item"  wx:for-index="outterIndex">
+        <swiper-item item-id="{{item.id}}">
           <text class="name">{{item.title}}</text>
           <view class="usercheck">
             <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}" data-ques='{{outterIndex}}' data-check="{{professionitem.name}}" bindtap="inputchecked">
               <label class="radio">
                 <!-- <radio value="{{professionitem.name}}" checked="{{professionitem.checked}}"/> -->
                 <view class="ui-checkbox">
-                  <input class="ui-ckBox-checkbox " type="checkbox" ></input>
+                  <!-- <input class="ui-ckBox-checkbox" type="checkbox" ></input> -->
                   <text class="ui-ckBox-nameBox {{professionitem.name==item.danchecked?'ui-ckBox-namechecked':''}}">
                     <text class="checkbox">{{professionitem.name}}</text>
                   </text>
@@ -26,9 +28,16 @@
               </label>
             </view>
           </view>
+          <view class="dotfooter">
+            <view class="left" bindtap="shouldcollection" data-collect="{{item.id}}">
+              <image src="{{item.collected?'/images/collection1.png':'/images/collection2.png'}}"></image>
+            </view>
+            <view class="left" bindtap="golearndetail">
+              <image src="/images/check.png"></image>
+            </view>
+          </view>
         </swiper-item>
       </block>
-    <!-- </view> -->
   </swiper>
 </view>
 

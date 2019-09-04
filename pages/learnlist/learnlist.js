@@ -1,4 +1,4 @@
-// pages/learndetail/learndetail.js
+// pages/learnlist/learnlist.js
 Page({
 
   /**

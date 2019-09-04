@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/answerkey/answerkey",
     "pages/lengthlearn/learndetail",
+    "pages/learnlist/learnlist",
+    "pages/answerkey/answerkey",
     "pages/answerport/answerport",
     "pages/lengthlearn/lengthlearn",
     "pages/mycenter/mycenter",

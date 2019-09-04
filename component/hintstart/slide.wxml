@@ -1,0 +1,5 @@
+<template name="slidestart">
+  <view class="hintstart" bindtap="closeslidehint" wx:if="{{!showhint&&slidehint}}">
+    <image class="slideimg" src="/images/huadong.png"></image>
+  </view>
+</template>

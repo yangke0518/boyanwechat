@@ -1,0 +1,46 @@
+<view class="learnlist">
+  <view class="check-ques">
+    <text class="title">单选题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li">2</view>
+      <view class="li checked">3</view>
+      <view class="li">4</view>
+      <view class="li">5</view>
+      <view class="li">6</view>
+      <view class="li checked">7</view>
+      <view class="li">8</view>
+      <view class="li">9</view>
+      <view class="li">10</view>
+      <view class="li">11</view>
+      <view class="li">12</view>
+      <view class="li">13</view>
+      <view class="li">14</view>
+      <view class="li">15</view>
+      <view class="li">16</view>
+      <view class="li">17</view>
+      <view class="li">18</view>
+    </view>
+
+    <text class="title">多选题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li">2</view>
+      <view class="li">3</view>
+      <view class="li">4</view>
+      <view class="li">5</view>
+      <view class="li">6</view>
+      <view class="li">7</view>
+    </view>
+
+    <text class="title">填空题</text>
+    <view class="ul clearfix">
+      <view class="li">1</view>
+      <view class="li">2</view>
+    </view>
+  </view>
+  <view class="footer">
+    <text class="answer">继续答题</text>
+    <text class="tell">交卷</text>
+  </view>
+</view>

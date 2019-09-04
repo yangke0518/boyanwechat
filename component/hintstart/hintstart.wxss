@@ -50,3 +50,14 @@ button{
   position: absolute;
   bottom: 0;
 }
+
+
+.slideimg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+  width: 372rpx;
+  height: 246rpx;
+}

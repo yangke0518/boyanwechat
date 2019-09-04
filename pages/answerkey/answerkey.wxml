@@ -12,7 +12,7 @@
             <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}">
               <label class="radio">
                 <view class="ui-checkbox">
-                  <input class="ui-ckBox-checkbox " type="checkbox" ></input>
+                  <!-- <input class="ui-ckBox-checkbox " type="checkbox" ></input> -->
                   <text class="ui-ckBox-nameBox {{professionitem.name==item.wronganswer?'ui-ckBox-namechecked':''}}">
                     <text class="checkbox">{{professionitem.name}}</text>
                   </text>

@@ -1,3 +1,5 @@
+@import '/component/dotfooter/dotfooter.wxss';
+
 page{
   background: #fafafa;
 }
@@ -19,21 +21,18 @@ page{
   color:  #0069FF !important;
 }
 .learndetail .question{
-  overflow-y: scroll;
-  height: calc(100vh - 44rpx); 
+  height: calc(100vh - 60rpx); 
   display: flex;
-
 }
 .learndetail .question swiper-item{
   /* overflow: visible !important; */
+  /* height: auto !important; */
   position: absolute;
   width: 100%;
-  height: auto !important;
   transform: translate(0%,0px) translateZ(0px);
-
   box-sizing: border-box;
-  
-
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .learndetail .question .name{ 
   font-size: 28rpx;
