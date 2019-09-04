@@ -1,9 +1,8 @@
 page{
   background: #fafafa;
 }
-.learndetail{
-  background: #fff;
-  padding-bottom: 30rpx;
+.learndetail .learndetail-title {
+  background: #fff;  
 }
 .learndetail .learndetail-title .topic{
   color: #1D2B40;
@@ -14,35 +13,42 @@ page{
 .learndetail .learndetail-title text{
   font-size: 24rpx;
   color: #7D90AB;
+
 }
 .colorblur{
   color:  #0069FF !important;
 }
 .learndetail .question{
-  margin-top: 44rpx;
-  height: calc(100vh-74rpx);
+  overflow-y: scroll;
+  height: calc(100vh - 44rpx); 
   display: flex;
-  background: #fafafa;
+
 }
 .learndetail .question swiper-item{
   /* overflow: visible !important; */
   position: absolute;
   width: 100%;
+  height: auto !important;
   transform: translate(0%,0px) translateZ(0px);
-  padding: 0 42rpx 42rpx 42rpx;
-  background: #fff;
+
   box-sizing: border-box;
+  
 
 }
 .learndetail .question .name{ 
   font-size: 28rpx;
   color: #1D2B40;
+  background: #fff;
+  padding: 44rpx 42rpx 0 42rpx;
+  width: 100%;
+  display: block;
 }
 .learndetail .question .usercheck{
-
+  background: #fff;
+  padding: 0 42rpx 42rpx 42rpx;
 }
 .learndetail .question .usercheck .radio-group{
-  margin-top: 16rpx;
+  padding-top: 16rpx;
   overflow: hidden;
 }
 .learndetail .question .usercheck radio{

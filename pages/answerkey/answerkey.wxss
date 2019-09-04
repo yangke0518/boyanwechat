@@ -1,0 +1,43 @@
+@import '/pages/lengthlearn/learndetail.wxss';
+
+.answerkey{
+  padding: 60rpx 36rpx 36rpx 36rpx;
+
+}
+.answerkey .title{
+  color: #1D2B40;
+  font-size: 28rpx;
+}
+.answerkey .answer{
+  margin: 18rpx 0 50rpx 0;
+}
+.answerkey .answer .rigth{
+  color: #A4A3A3;
+  font-size: 24rpx;
+}
+.answerkey .answer .rigthdet{
+  color: #33AE08;
+  font-size: 32rpx;
+  margin: 0 24rpx;
+}
+.answerkey .answer .wrong{
+  color: #A4A3A3;
+  font-size: 24rpx;
+}
+.answerkey .answer .wrongdet{
+  color: #1D2B40;
+  font-size: 32rpx;
+  margin: 0 24rpx;
+}
+
+.answerkey .length{
+  color: #7D90AB;
+  font-size: 24rpx;
+  margin: 18rpx 0 36rpx 0;
+  display: justify;
+}
+.answerkey .grade{
+  color: #7D90AB;
+  font-size: 24rpx;
+  margin: 44rpx 0 0 0;
+}

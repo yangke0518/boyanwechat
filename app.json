@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/answerkey/answerkey",
     "pages/lengthlearn/learndetail",
     "pages/answerport/answerport",
     "pages/lengthlearn/lengthlearn",
