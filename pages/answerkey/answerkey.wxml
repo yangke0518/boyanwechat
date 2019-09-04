@@ -37,6 +37,15 @@
       </block>
     <!-- </view> -->
   </swiper>
-  
+  <view>
+    <view class="dotfooter">
+      <view class="left">
+        <image src="/images/collection1.png"></image>
+      </view>
+      <view class="left">
+        <image src="/images/check.png"></image>
+      </view>
+    </view>
+  </view>
 </view>
  

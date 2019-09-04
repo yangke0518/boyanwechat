@@ -1,4 +1,23 @@
 @import '/pages/lengthlearn/learndetail.wxss';
+@import '/component/dotfooter/dotfooter.wxss';
+
+.learndetail .question{
+  overflow-y: scroll;
+  height: calc(100vh - 160rpx); 
+  display: flex;
+
+}
+.learndetail .question swiper-item{
+  /* overflow: visible !important; */
+  position: absolute;
+  width: 100%;
+  height: auto !important;
+  transform: translate(0%,0px) translateZ(0px);
+
+  box-sizing: border-box;
+  
+
+}
 
 .answerkey{
   padding: 60rpx 36rpx 36rpx 36rpx;
