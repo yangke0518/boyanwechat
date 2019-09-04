@@ -19,12 +19,19 @@ page{
   color:  #0069FF !important;
 }
 .learndetail .question{
-  padding: 0 42rpx;
   margin-top: 44rpx;
-  min-height: 600rpx;
+  height: calc(100vh-74rpx);
+  display: flex;
+  background: #fafafa;
 }
 .learndetail .question swiper-item{
-  overflow: visible !important;
+  /* overflow: visible !important; */
+  position: absolute;
+  width: 100%;
+  transform: translate(0%,0px) translateZ(0px);
+  padding: 0 42rpx 42rpx 42rpx;
+  background: #fff;
+  box-sizing: border-box;
 
 }
 .learndetail .question .name{ 

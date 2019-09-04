@@ -17,8 +17,8 @@
               <label class="radio">
                 <!-- <radio value="{{professionitem.name}}" checked="{{professionitem.checked}}"/> -->
                 <view class="ui-checkbox">
-                  <input class="ui-ckBox-checkbox" type="checkbox" ></input>
-                  <text class="ui-ckBox-nameBox">
+                  <input class="ui-ckBox-checkbox " type="checkbox" ></input>
+                  <text class="ui-ckBox-nameBox {{professionitem.name==item.danchecked?'ui-ckBox-namechecked':''}}">
                     <text class="checkbox">{{professionitem.name}}</text>
                   </text>
                 </view>
