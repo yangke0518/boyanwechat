@@ -9,12 +9,11 @@
         <swiper-item>
           <text class="name">{{item.title}}</text>
           <view class="usercheck">
-            <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}" data-ques='{{outterIndex}}' data-check="{{professionitem.name}}" bindtap="inputchecked">
+            <view class="radio-group" wx:for="{{item.question}}" wx:for-item="professionitem" wx:key="{{professionitem}}">
               <label class="radio">
-                <!-- <radio value="{{professionitem.name}}" checked="{{professionitem.checked}}"/> -->
                 <view class="ui-checkbox">
                   <input class="ui-ckBox-checkbox " type="checkbox" ></input>
-                  <text class="ui-ckBox-nameBox {{professionitem.name==item.danchecked?'ui-ckBox-namechecked':''}}">
+                  <text class="ui-ckBox-nameBox {{professionitem.name==item.wronganswer?'ui-ckBox-namechecked':''}}">
                     <text class="checkbox">{{professionitem.name}}</text>
                   </text>
                 </view>
@@ -26,13 +25,13 @@
           <view class="answerkey">
             <text class="title">答案</text>
             <view class="answer clearfix">
-              <text class="rigth">正确答案</text><text class="rigthdet">B</text>
-              <text class="wrong">您的答案</text><text class="wrongdet">A</text>
+              <text class="rigth">正确答案</text><text class="rigthdet">{{item.rigthanswer}}</text>
+              <text class="wrong">您的答案</text><text class="wrongdet">{{item.wronganswer}}</text>
             </view>
             <text class="title">解析</text>
-            <view class="length">《论语·雍也》曾说：“质胜文则野，文胜质则史。文质彬彬，然后君子。”这是对妥善处理好人的先天自然素质和后天人为修养的关系所发的议论。</view>
+            <view class="length">{{item.jixxi}}</view>
             <text class="title">知识点</text>
-            <view class="grade">第一章 绪论，001“文化”的界定</view>
+            <view class="grade">{{item.grade}}</view>
           </view>
         </swiper-item>
       </block>
